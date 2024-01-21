@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+</head>
+<style>
+    
+    body{
+        background-color: #cad5e2;
+    }
+    h1{
+        color: #5a4bda;
+        text-align: center;
+       
+    }
+    p{
+        text-align: center;
+        color: rgb(87, 87, 87);
+        font-size: 15px;
+        
+    }
+    .main{
+        
+        display: flex;
+        
+        
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       margin-top: 30vh;
+        
+    }
+    .child{
+        height: 340px;
+
+        width: 316px;
+        background-color: #f6f8f9;
+        border-radius: 5px;
+       
+        
+        margin: 10px;
+       
+    }
+    img{
+        height: 155px;
+        width: 290px;
+        margin-left: 12px;
+        margin-top: 10px;
+    }
+    h3,h4,h6{
+        margin-left: 12px;
+    }
+    h3{
+        color: #5a4bda;
+    }
+    
+</style>
+<body>
+    <h1>Community Programs</h1>
+        <p>Open to all pro-live classes on Youtube for free.</p>
+    <div class="main">
+        
+        <div class="child" ;><img src="6448ca86508654220671ad2d.jpg" alt="">
+            <h3>Masterclass Understanding APIs in Web Development with RoadMap</h3>
+            <h6>Hitesh Choudhary</h6>
+            <h4>FREE</h4>
+        </div>
+        <div class="child" ;><img src="6463025b6977cc64d3ddf8b7.jpg" alt="">
+        <h3>Masterclass Cracking The Coding Interview LinkedLis</h3>
+        <h6>Vishwa Mohan</h6>
+        <h4>free</h4>
+    </div>
+        <div class="child" id="mc" ;><img src="64426c32508654fb0f7168bd.jpg" alt="">
+        <h3>MasterClass Important of DSA in Modern Programming</h3>
+        <h6>Priya Bhatia</h6>
+        <h4>free</h4>
+        </div>
+    </div>
+</body>
+</html>
